@@ -17,11 +17,10 @@ My personal dotfiles for a [CachyOS](https://cachyos.org/) setup running the [ni
 | OS               | CachyOS x86_64                                     |
 | Kernel           | Linux 7.0.2-2-cachyos                              |
 | WM               | [niri](https://github.com/YaLTeR/niri)             |
-| Shell            | [noctalia-shell](https://github.com/lunar-os/noctalia) (via quickshell) |
+| Shell            | [noctalia-shell](https://github.com/noctalia-dev/noctalia-shell) (via quickshell) |
 | Terminal         | [Alacritty](https://alacritty.org/)                |
 | CLI Shell        | [fish](https://fishshell.com/)                     |
-| App Launcher     | [fuzzel](https://codeberg.org/dnkl/fuzzel)         |
-| Clipboard        | [cliphist](https://github.com/sentriz/cliphist)    |
+| Clipboard UI     | [fuzzel](https://codeberg.org/dnkl/fuzzel) + [cliphist](https://github.com/sentriz/cliphist) |
 | Fetch            | [fastfetch](https://github.com/fastfetch-cli/fastfetch) |
 
 ## Structure
@@ -31,7 +30,7 @@ dotfiles/
 ├── alacritty/      # Terminal config
 ├── fastfetch/      # Fetch tool config
 ├── fish/           # Shell config
-├── fuzzel/         # App launcher config
+├── fuzzel/         # Clipboard UI config
 ├── niri/           # Window manager config
 ├── noctalia.json   # Bar config
 └── images/         # Screenshots
