@@ -22,7 +22,10 @@ binds {
     }
     Mod+Z                               hotkey-overlay-title="Open Editor: Zed" { spawn "zeditor"; }
     Mod+Shift+T                         hotkey-overlay-title="Open Telegram" { spawn "Telegram"; }
-
+    Mod+D                               hotkey-overlay-title="Open Discord" { spawn "discord" "--ozone-platform-hint=x11"; }
+    Mod+Shift+W hotkey-overlay-title="Wallpaper Selector: Wallcards" {
+    spawn-sh "qs -c noctalia-shell ipc call plugin:wallcards toggle";
+}
 
     Mod+Shift+S hotkey-overlay-title="Screen record stop" {
         spawn "sh" "-c" "killall -SIGINT gpu-screen-recorder && notify-send 'Recording stopped'";

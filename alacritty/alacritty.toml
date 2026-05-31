@@ -1,3 +1,6 @@
+[general]
+import = ["~/.config/alacritty/themes/noctalia.toml"]
+
 [window]
 opacity = 0.85
 blur = true
@@ -71,3 +74,8 @@ action = "Paste"
 key = "C"
 mods = "Control|Shift"
 action = "Copy"
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Shift"
+chars = "\u001B\r"
